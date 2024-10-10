@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c252863d3264814b8c34a1c4a2e762d, type: 3}
+  m_Name: TorchGrabbable_HandGrabCollection
+  m_EditorClassIdentifier: 
+  _interactablesData:
+  - poses:
+    - gripPose:
+        position: {x: -0.11206554, y: 0.020716436, z: -0.1302956}
+        rotation: {x: 0.18930063, y: 0.7349225, z: -0.594112, w: 0.26661813}
+      handPose:
+        _handedness: 1
+        _fingersFreedom: 0200000002000000010000000100000000000000
+        _jointRotations:
+        - {x: 0.43487003, y: -0.35613656, z: -0.11290168, w: 0.81933343}
+        - {x: 0.31240714, y: -0.06445228, z: -0.14233953, w: 0.9370094}
+        - {x: -0.082152545, y: 0.053464256, z: -0.18621773, w: 0.9776071}
+        - {x: 0.079968244, y: -0.05285932, z: -0.08779997, w: 0.9915152}
+        - {x: 0.004414724, y: 0.11821088, z: -0.34463638, w: 0.9312532}
+        - {x: -0.025857862, y: -0.0032051597, z: -0.38155952, w: 0.923977}
+        - {x: -0.017106183, y: 0.022113223, z: -0.20466927, w: 0.9784318}
+        - {x: -0.059850484, y: 0.09883398, z: -0.5048592, w: 0.85543376}
+        - {x: -0.012619609, y: -0.0044506453, z: -0.68001777, w: 0.7330736}
+        - {x: -0.08610863, y: -0.020995095, z: -0.49177843, w: 0.8661981}
+        - {x: -0.115860835, y: 0.08154848, z: -0.6021725, w: 0.7856934}
+        - {x: -0.041602436, y: -0.021250077, z: -0.6977775, w: 0.7147894}
+        - {x: -0.029018536, y: -0.027234882, z: -0.53480697, w: 0.8440364}
+        - {x: -0.20703596, y: 0.1403428, z: -0.018311828, w: 0.96804154}
+        - {x: 0.06486486, y: 0.028813774, z: -0.6401755, w: 0.76494247}
+        - {x: -0.0855252, y: 0.008046865, z: -0.63374454, w: 0.7687573}
+        - {x: 0.0025810003, y: -0.039779097, z: -0.5758265, w: 0.8165991}
+      scale: 0.97817296
+    grabType: 3
+    handAlignment: 1
+    scoringModifier:
+      _positionRotationWeight: 0.8
+    pinchGrabRules:
+      _thumbRequirement: 1
+      _indexRequirement: 1
+      _middleRequirement: 1
+      _ringRequirement: 0
+      _pinkyRequirement: 0
+      _unselectMode: 0
+    palmGrabRules:
+      _thumbRequirement: 1
+      _indexRequirement: 2
+      _middleRequirement: 2
+      _ringRequirement: 2
+      _pinkyRequirement: 1
+      _unselectMode: 0
